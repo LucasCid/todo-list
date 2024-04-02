@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    display: flex;
+}
+
+.container {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(236, 234, 234);
+    padding: 30px;
+}
+
+.search {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    padding: 15px 10px;
+    outline: none;
+    width: 100%;
+}
+
+.li-container {
+    background-color: white;
+    width: 100%;
+    color: rgb(0, 0, 0);
+    margin-top: 20px;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    background-color: rgb(255, 254, 254);
+    border-radius: 10px;
+    margin-top: 15px;
+    display: flex;
+    align-items: center; /* Alinear elementos verticalmente */
+}
+
+li p {
+    margin: 0;
+    padding: 15px;
+    width: 100%;
+}
+
+.btn-delete {
+    margin-left: auto;
+    border: none;
+    background-color: rgb(255, 254, 254);
+    color: rgb(255, 2, 2);
+    font-weight: bold;
+    padding: 5px 10px;
+    outline: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 10%;
+    font-size: 1.2em;
+}
+
+.btn-delete:hover {
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+}
+
+.btn-add {
+    padding: 5px 15px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    background-color: rgb(0, 97, 24);
+    font-size: 1.4rem;
+    outline: none;
+}
+
+.btn-add:hover {
+    cursor: pointer;
+    background-color: rgb(5, 139, 0);
+}
+
+.empty {
+    color: darkslategrey;
+}
+
+.completed {
+    text-decoration: line-through; /* Tachar texto de las tareas completadas */
+}
+
+.completed-count {
+    margin-top: 10px;
+}
+
+.completed-count p {
+    margin: 0;
+}
+
+.completed-count span {
+    font-weight: bold;
+}
